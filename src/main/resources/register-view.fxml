@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" stylesheets="register.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.library.ui.RegisterController">
+    <children>
+        <Button fx:id="btnSignUp" layoutX="401.0" layoutY="479.0" mnemonicParsing="false" onAction="#register" prefHeight="35.0" prefWidth="181.0" text="Sign up" />
+        <TextField fx:id="nameField" layoutX="401.0" layoutY="250.0" prefHeight="35.0" prefWidth="181.0" promptText="Name" />
+        <TextField fx:id="surnameField" layoutX="401.0" layoutY="295.0" prefHeight="35.0" prefWidth="181.0" promptText="Surname" />
+        <TextField fx:id="loginField" layoutX="401.0" layoutY="341.0" prefHeight="35.0" prefWidth="181.0" promptText="Login" />
+        <PasswordField fx:id="passwordField" layoutX="401.0" layoutY="389.0" prefHeight="35.0" prefWidth="181.0" promptText="Password" />
+        <RadioButton fx:id="rbtnMale" layoutX="413.0" layoutY="446.0" mnemonicParsing="false" text="Male">
+            <toggleGroup>
+                <ToggleGroup fx:id="sex" />
+            </toggleGroup>
+        </RadioButton>
+        <RadioButton fx:id="rbtnFemale" layoutX="500.0" layoutY="446.0" mnemonicParsing="false" text="Female" toggleGroup="$sex" />
+        <Button fx:id="btnLoginHint" layoutX="398.0" layoutY="634.0" onAction="#switchToLoginScene" prefHeight="24.0" prefWidth="188.0" text="Already have an account?" />
+    </children>
+</AnchorPane>

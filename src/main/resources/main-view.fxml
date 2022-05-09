@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" stylesheets="main.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.library.ui.MainController">
+    <children>
+        <AnchorPane layoutX="-1.0" prefHeight="700.0" prefWidth="246.0" style="-fx-background-color: #00c6ff;">
+            <children>
+                <Label fx:id="lName" layoutX="47.0" layoutY="25.0" prefHeight="31.0" prefWidth="177.0" text="Name" />
+                <Label fx:id="lSurname" layoutX="47.0" layoutY="56.0" prefHeight="31.0" prefWidth="177.0" text="Surname" />
+                <Button fx:id="btnMyBooks" layoutX="47.0" layoutY="108.0" mnemonicParsing="false" onAction="#btnMyBooksClicked" prefHeight="37.0" prefWidth="177.0" text="My Books" wrapText="true" />
+                <Button fx:id="btnBooks" layoutX="47.0" layoutY="157.0" mnemonicParsing="false" onAction="#btnBooksClicked" prefHeight="37.0" prefWidth="177.0" text="Books" wrapText="true" />
+                <Button fx:id="btnAuthors" layoutX="47.0" layoutY="208.0" mnemonicParsing="false" onAction="#btnAuthorsClicked" prefHeight="37.0" prefWidth="177.0" text="Authors" wrapText="true" />
+                <Button fx:id="btnGenres" layoutX="47.0" layoutY="262.0" mnemonicParsing="false" onAction="#btnGenresClicked" prefHeight="37.0" prefWidth="177.0" text="Genres" wrapText="true" />
+                <Button fx:id="btnPublishers" layoutX="47.0" layoutY="313.0" mnemonicParsing="false" onAction="#btnPublishersClicked" prefHeight="37.0" prefWidth="177.0" text="Publishers" wrapText="true" />
+                <AnchorPane layoutX="3.0" prefHeight="700.0" prefWidth="20.0" style="-fx-background-color: white;">
+                    <effect>
+                        <DropShadow />
+                    </effect>
+                </AnchorPane>
+            </children>
+            <effect>
+                <DropShadow />
+            </effect>
+        </AnchorPane>
+        <AnchorPane layoutX="243.0" prefHeight="700.0" prefWidth="757.0">
+            <children>
+                <Pane fx:id="pMyBooks" layoutX="1.0" layoutY="-1.0" prefHeight="700.0" prefWidth="757.0">
+                    <children>
+                        <TableView fx:id="tableMyBooks" layoutY="75.0" prefHeight="625.0" prefWidth="757.0">
+                            <columns>
+                                <TableColumn fx:id="idColumn" prefWidth="43.0" text="#" />
+                                <TableColumn fx:id="titleColumn" prefWidth="277.0" text="Title" />
+                                <TableColumn fx:id="pagesColumn" minWidth="0.0" prefWidth="65.0" text="Pages" />
+                                <TableColumn fx:id="ratingColumn" prefWidth="62.0" text="Rating" />
+                                <TableColumn fx:id="isbnColumn" prefWidth="155.0" text="ISBN" />
+                                <TableColumn fx:id="dateColumn" prefWidth="146.0" text="Date" />
+                            </columns>
+                        </TableView>
+                    </children>
+                </Pane>
+                <Pane fx:id="pBooks" layoutX="11.0" layoutY="9.0" prefHeight="700.0" prefWidth="757.0" />
+                <Pane fx:id="pAuthors" layoutX="21.0" layoutY="19.0" prefHeight="700.0" prefWidth="757.0" />
+                <Pane fx:id="pGenres" layoutX="21.0" layoutY="19.0" prefHeight="700.0" prefWidth="757.0" />
+                <Pane fx:id="pPublishers" layoutX="21.0" layoutY="19.0" prefHeight="700.0" prefWidth="757.0" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

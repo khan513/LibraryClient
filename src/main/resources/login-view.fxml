@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0"
+            prefWidth="1000.0" stylesheets="login.css" xmlns="http://javafx.com/javafx/11.0.14-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.library.ui.LoginController">
+    <children>
+        <PasswordField fx:id="passwordField" layoutX="409.0" layoutY="420.0" prefHeight="40.0" prefWidth="183.0"
+                       promptText="Password"/>
+        <TextField fx:id="loginField" layoutX="409.0" layoutY="360.0" prefHeight="40.0" prefWidth="183.0"
+                   promptText="Login"/>
+        <Button fx:id="btnSignIn" layoutX="409.0" layoutY="489.0" mnemonicParsing="false" onAction="#login"
+                prefHeight="34.0" prefWidth="183.0" text="Sign in"/>
+        <Button fx:id="btnRegisterHint" layoutX="403.0" layoutY="638.0" onAction="#switchToRegisterScene"
+                text="Don't have an account? Sign up!">
+            <font>
+                <Font size="11.0"/>
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
