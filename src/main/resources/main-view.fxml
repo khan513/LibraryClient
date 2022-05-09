@@ -10,10 +10,10 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" stylesheets="main.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.library.ui.MainController">
     <children>
-        <AnchorPane layoutX="-1.0" prefHeight="700.0" prefWidth="246.0" style="-fx-background-color: #00c6ff;">
+        <AnchorPane layoutX="-1.0" prefHeight="700.0" prefWidth="240.0" style="-fx-background-color: #00c6ff;">
             <children>
-                <Label fx:id="lName" layoutX="47.0" layoutY="25.0" prefHeight="31.0" prefWidth="177.0" text="Name" />
-                <Label fx:id="lSurname" layoutX="47.0" layoutY="56.0" prefHeight="31.0" prefWidth="177.0" text="Surname" />
+                <Label fx:id="lName" layoutX="41.0" layoutY="25.0" prefHeight="31.0" prefWidth="90.0" text="Name" />
+                <Label fx:id="lSurname" layoutX="138.0" layoutY="25.0" prefHeight="31.0" prefWidth="90.0" text="Surname" />
                 <Button fx:id="btnMyBooks" layoutX="47.0" layoutY="108.0" mnemonicParsing="false" onAction="#btnMyBooksClicked" prefHeight="37.0" prefWidth="177.0" text="My Books" wrapText="true" />
                 <Button fx:id="btnBooks" layoutX="47.0" layoutY="157.0" mnemonicParsing="false" onAction="#btnBooksClicked" prefHeight="37.0" prefWidth="177.0" text="Books" wrapText="true" />
                 <Button fx:id="btnAuthors" layoutX="47.0" layoutY="208.0" mnemonicParsing="false" onAction="#btnAuthorsClicked" prefHeight="37.0" prefWidth="177.0" text="Authors" wrapText="true" />
@@ -29,11 +29,11 @@
                 <DropShadow />
             </effect>
         </AnchorPane>
-        <AnchorPane layoutX="243.0" prefHeight="700.0" prefWidth="757.0">
+        <AnchorPane layoutX="243.0" prefHeight="700.0" prefWidth="750.0">
             <children>
-                <Pane fx:id="pMyBooks" layoutX="1.0" layoutY="-1.0" prefHeight="700.0" prefWidth="757.0">
+                <Pane fx:id="pMyBooks" layoutY="-1.0" prefHeight="700.0" prefWidth="750.0">
                     <children>
-                        <TableView fx:id="tableMyBooks" layoutY="75.0" prefHeight="625.0" prefWidth="757.0">
+                        <TableView fx:id="tableMyBooks" layoutY="75.0" prefHeight="625.0" prefWidth="750.0">
                             <columns>
                                 <TableColumn fx:id="idColumn" prefWidth="43.0" text="#" />
                                 <TableColumn fx:id="titleColumn" prefWidth="277.0" text="Title" />
@@ -45,10 +45,47 @@
                         </TableView>
                     </children>
                 </Pane>
-                <Pane fx:id="pBooks" layoutX="11.0" layoutY="9.0" prefHeight="700.0" prefWidth="757.0" />
-                <Pane fx:id="pAuthors" layoutX="21.0" layoutY="19.0" prefHeight="700.0" prefWidth="757.0" />
-                <Pane fx:id="pGenres" layoutX="21.0" layoutY="19.0" prefHeight="700.0" prefWidth="757.0" />
-                <Pane fx:id="pPublishers" layoutX="21.0" layoutY="19.0" prefHeight="700.0" prefWidth="757.0" />
+                <Pane fx:id="pBooks" layoutX="11.0" layoutY="9.0" prefHeight="700.0" prefWidth="750.0">
+               <children>
+                  <TableView fx:id="tableBooks" layoutX="-9.0" layoutY="61.0" prefHeight="625.0" prefWidth="750.0">
+                     <columns>
+                        <TableColumn fx:id="idColumn1" prefWidth="43.0" text="#" />
+                        <TableColumn fx:id="titleColumn1" prefWidth="277.0" text="Title" />
+                        <TableColumn fx:id="pagesColumn1" minWidth="0.0" prefWidth="65.0" text="Pages" />
+                        <TableColumn fx:id="ratingColumn1" prefWidth="62.0" text="Rating" />
+                        <TableColumn fx:id="isbnColumn1" prefWidth="155.0" text="ISBN" />
+                        <TableColumn fx:id="dateColumn1" prefWidth="146.0" text="Date" />
+                     </columns>
+                  </TableView>
+               </children></Pane>
+                <Pane fx:id="pAuthors" layoutX="21.0" layoutY="19.0" prefHeight="700.0" prefWidth="750.0">
+               <children>
+                  <TableView fx:id="tableAuthors" layoutX="-20.0" layoutY="51.0" prefHeight="625.0" prefWidth="750.0">
+                    <columns>
+                      <TableColumn fx:id="idColumn2" prefWidth="75.0" text="#" />
+                      <TableColumn fx:id="nameColumn" prefWidth="217.0" text="Name" />
+                        <TableColumn fx:id="surnameColumn" minWidth="0.0" prefWidth="269.0" text="Surname" />
+                    </columns>
+                  </TableView>
+               </children></Pane>
+                <Pane fx:id="pGenres" layoutX="21.0" layoutY="19.0" prefHeight="700.0" prefWidth="750.0">
+               <children>
+                  <TableView fx:id="tableGenres" layoutX="-20.0" layoutY="52.0" prefHeight="625.0" prefWidth="750.0">
+                    <columns>
+                      <TableColumn fx:id="idColum3" prefWidth="134.0" text="#" />
+                      <TableColumn fx:id="genreColumn" prefWidth="348.0" text="Genre" />
+                    </columns>
+                  </TableView>
+               </children></Pane>
+                <Pane fx:id="pPublishers" layoutX="21.0" layoutY="19.0" prefHeight="700.0" prefWidth="750.0">
+               <children>
+                  <TableView fx:id="tablePublishers" layoutX="-18.0" layoutY="49.0" prefHeight="625.0" prefWidth="750.0">
+                    <columns>
+                      <TableColumn fx:id="idColumn4" prefWidth="102.0" text="#" />
+                      <TableColumn fx:id="nameColumn1" prefWidth="414.0" text="Name" />
+                    </columns>
+                  </TableView>
+               </children></Pane>
             </children>
         </AnchorPane>
     </children>

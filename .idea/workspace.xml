@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6acfab-4369-44be-8817-21415b1cbb2d" name="Changes" comment="" />
+    <list default="true" id="ff6acfab-4369-44be-8817-21415b1cbb2d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/library/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/library/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/library/net/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/library/net/Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/library/net/TcpApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/library/net/TcpApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/library/ui/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/library/ui/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/main-view.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -31,6 +41,7 @@
     <option name="vmOptions" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
   </component>
   <component name="ProjectId" id="28segyUhRQg6epV2xzIy6Aa4Pn4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,8 +53,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/khan/IdeaProjects/Library/src/main/java/com/example/library&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/khan/IdeaProjects/LibraryAppServer&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -127,10 +139,23 @@
       <workItem from="1652098881128" duration="4280000" />
       <workItem from="1652105615033" duration="2458000" />
       <workItem from="1652108197334" duration="2664000" />
+      <workItem from="1652111056930" duration="1006000" />
+      <workItem from="1652119060833" duration="3434000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
