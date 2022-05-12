@@ -31,7 +31,7 @@ public class Client extends Application {
             socket = new Socket("127.0.0.1", 1234);
             api = new TcpApi();
         } catch (IOException e) {
-            showAlert(Alert.AlertType.WARNING, "Could not connect to the server, please try again later"));
+            showAlert(Alert.AlertType.WARNING, "Could not connect to the server, please try again later");
             e.printStackTrace();
         }
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("login-view.fxml"));

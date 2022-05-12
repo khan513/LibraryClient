@@ -1,4 +1,11 @@
-#loginRoot {
-    -fx-background-color: #00c6ff;
-    -fx-border-color: black;
+button {
+    -fx-border-colorborder-radius: 15px;
+    -fx-background-color: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+    -fx-color-label-visible: black;
+    transition: 0.3s;
+}
+
+button:hover {
+    -fx-border-radius: 15px;
+    -fx-background-color: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
 }

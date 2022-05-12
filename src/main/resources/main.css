@@ -1,0 +1,11 @@
+button {
+    -fx-border-colorborder-radius: 15px;
+    -fx-background-color: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+    -fx-color-label-visible: black;
+    transition: 0.3s;
+}
+
+button:hover {
+    border-radius: 15px;
+    background-color: #D3CCE3;
+}

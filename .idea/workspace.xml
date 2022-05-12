@@ -7,8 +7,9 @@
     <list default="true" id="ff6acfab-4369-44be-8817-21415b1cbb2d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/library/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/library/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/login-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/register.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/khan/IdeaProjects/Library",
+    "ignore.preview.features.used": "true",
+    "last_opened_file_path": "/home/khan/IdeaProjects/KotlinPlayground",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
@@ -144,6 +146,9 @@
       <workItem from="1652119060833" duration="4690000" />
       <workItem from="1652156752367" duration="186000" />
       <workItem from="1652177809393" duration="192000" />
+      <workItem from="1652196965216" duration="1133000" />
+      <workItem from="1652284903908" duration="1473000" />
+      <workItem from="1652293501039" duration="33000" />
     </task>
     <servers />
   </component>
